@@ -1,19 +1,9 @@
-//
-//  ViewController.swift
-//  CatalystPlot
-//
-//  Created by Jeff Terry on 4/12/20.
-//  Copyright © 2020 Jeff Terry. All rights reserved.
-//
-
-import UIKit
 import CorePlot
 
-class ViewController: UIViewController, CPTScatterPlotDataSource, CPTAxisDelegate {
+class ViewController : NSViewController, CPTScatterPlotDataSource, CPTAxisDelegate {
     private var scatterGraph : CPTXYGraph? = nil
     @IBOutlet weak var hostingView: CPTGraphHostingView!
 
-    @IBOutlet weak var button: UIButton!
     typealias plotDataType = [CPTScatterPlotField : Double]
     private var dataForPlot = [plotDataType]()
 
@@ -21,29 +11,10 @@ class ViewController: UIViewController, CPTScatterPlotDataSource, CPTAxisDelegat
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let hover = UIHoverGestureRecognizer(target: self, action: #selector(hovering(_:)) )
-        button.addGestureRecognizer(hover)
-        
          makePlot(xLabel: "", yLabel: "", xMin: -1, xMax: 1, yMin: -1, yMax: 1)
         
 
     }
-    
-    @objc func hovering(_ recognizer: UIHoverGestureRecognizer){
-        
-        switch recognizer.state {
-        case .began, .changed:
-            button.titleLabel?.textColor = #colorLiteral(red:1.0, green:0.0, blue:0.0, alpha: 1.0)
-        case .ended:
-            button.titleLabel?.textColor = UIColor.link
-        default:
-            break
-        }
-        
-        
-        
-    }
-    
 
     /// Calculates the points of a function and adds them as (x,y) points to the contentArray for display
     ///
@@ -64,11 +35,11 @@ class ViewController: UIViewController, CPTScatterPlotDataSource, CPTAxisDelegat
 
             //create x values here
 
-            let x = -2.0 + Double(i) * 0.2
+	    let x = 
 
-        //create y values here
+	    //create y values here
 
-        let y = exp(-x)
+	    let y = 
 
 
             let dataPoint: plotDataType = [.X: x, .Y: y]
