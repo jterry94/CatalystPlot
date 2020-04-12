@@ -26,6 +26,7 @@
 		D25242BB24438C8E006BE623 /* Plot20.png in Resources */ = {isa = PBXBuildFile; fileRef = D25242B224438C8E006BE623 /* Plot20.png */; };
 		D25242BC24438C8E006BE623 /* Plot76.png in Resources */ = {isa = PBXBuildFile; fileRef = D25242B324438C8E006BE623 /* Plot76.png */; };
 		D25242BD24438C8E006BE623 /* Plot29.png in Resources */ = {isa = PBXBuildFile; fileRef = D25242B424438C8E006BE623 /* Plot29.png */; };
+		D25242DF2443B480006BE623 /* License.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D25242D12443B480006BE623 /* License.rtf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -132,6 +133,7 @@
 		D25242B224438C8E006BE623 /* Plot20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plot20.png; sourceTree = "<group>"; };
 		D25242B324438C8E006BE623 /* Plot76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plot76.png; sourceTree = "<group>"; };
 		D25242B424438C8E006BE623 /* Plot29.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Plot29.png; sourceTree = "<group>"; };
+		D25242D12443B480006BE623 /* License.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = License.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +192,7 @@
 				D25242622443871A006BE623 /* SceneDelegate.swift */,
 				D25242A624438807006BE623 /* Shortcut.txt */,
 				D25242642443871A006BE623 /* ViewController.swift */,
+				D25242D12443B480006BE623 /* License.rtf */,
 				D25242662443871A006BE623 /* Main.storyboard */,
 				D25242692443871B006BE623 /* Assets.xcassets */,
 				D252426B2443871B006BE623 /* LaunchScreen.storyboard */,
@@ -388,6 +391,7 @@
 				D25242B924438C8E006BE623 /* Plot40.png in Resources */,
 				D25242BC24438C8E006BE623 /* Plot76.png in Resources */,
 				D25242B624438C8E006BE623 /* Plot80.png in Resources */,
+				D25242DF2443B480006BE623 /* License.rtf in Resources */,
 				D25242682443871A006BE623 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
